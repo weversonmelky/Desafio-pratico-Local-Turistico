@@ -1,8 +1,8 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
 :root{
     --font-family: "Open Sans", sans-serif;
@@ -27,7 +27,15 @@
     --accent-purple: #591B98;
 }
 
+body{
+    font-family: var(--font-family);
+}
+
+
+li{
+    list-style: none;
+}
+
 img{
-    max-width: 100%;
-    height: auto;
+    width: 100%;
 }
